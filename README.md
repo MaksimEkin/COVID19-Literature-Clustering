@@ -23,6 +23,7 @@ t-SNE (2-grams, HashVectorizer)  |  t-SNE (2-grams, HashVectorizer, K-Means)
     <li>Altough, there is no continuous flow of data, our approach has to be scalable as there will be more literature later</li>
 </ol>
 <br>
+
 t-SNE (Plain Text, TFID, K-Means)  |  PCA (Plain Text, TFID, K-Means)
 :-------------------------:|:-------------------------:
 ![](plots/t-sne_covid19_label_TFID.png)  |  ![](plots/pca_covid19_label_TFID.png)
