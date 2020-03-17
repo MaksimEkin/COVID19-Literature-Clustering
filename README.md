@@ -5,9 +5,33 @@
 ### Goal
 Given a large amount of literature and rapidly spreading COVID-19, it is difficult for a scientist to keep up with the research community promptly. Can we cluster similar research articles together to make it easier for health professionals to find relevant research articles? Clustering can be used to create a tool to identify similar articles, given a target article. It can also reduce the number of articles one has to go through as one can focus on a cluster of articles. 
 
-Without Clustering         |  With Clustering
+t-SNE (2-grams, HashVectorizer)  |  t-SNE (2-grams, HashVectorizer, K-Means)
 :-------------------------:|:-------------------------:
 ![](plots/t-sne_covid19.png)  |  ![](plots/t-sne_covid19_label.png)
+
+**Approach**:
+<ol>
+    <li>Unsupervised Learning task, because we don't have labels for the articles</li>
+    <li>Clustering and Dimensionality Reduction task </li>
+    <li>See how well labels from K-Means classify</li>
+    <li>Use N-Grams with Hash Vectorizer</li>
+    <li>Use N-Grams with BWTD</li>
+    <li>Use plain text with BWTD</li>
+    <li>Use plain text with Tfid</li>
+    <li>Use K-Means for clustering</li>
+    <li>Use t-SNE for dimensionality reduction</li>
+    <li>Use PCA for dimensionality reduction</li>
+    <li>There is no continuous flow of data, no need to adjust to changing data, and the data is small enough to fit in memmory: Batch Learning</li>
+    <li>Altough, there is no continuous flow of data, our approach has to be scalable as there will be more literature later</li>
+</ol>
+
+t-SNE (Plain Text, TFID, K-Means)  |  PCA (Plain Text, TFID, K-Means)
+:-------------------------:|:-------------------------:
+![](plots/t-sne_covid19_label_TFID.png)  |  ![](plots/pca_covid19_label_TFID.png)
+
+<br>
+
+![](plots/pca_covid19_label_TFID_3d.png)
 
 ### Dataset Description
 
