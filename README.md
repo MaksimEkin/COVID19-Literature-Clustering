@@ -7,7 +7,7 @@ Given a large amount of literature and rapidly spreading COVID-19, it is difficu
 
 Without Clustering         |  With Clustering
 :-------------------------:|:-------------------------:
-![](plots/t-sne_covid19.png)  |  ![](plots/t-sne_covid19_label.jpg)
+![](plots/t-sne_covid19.png)  |  ![](plots/t-sne_covid19_label.png)
 
 ### Dataset Description
 
