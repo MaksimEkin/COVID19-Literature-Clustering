@@ -53,5 +53,5 @@ t-SNE (Plain Text, TFID, K-Means)  |  PCA (Plain Text, TFID, K-Means)
 ## Maps
 Maps generated using [Novel Corona Virus 2019 Dataset | Kaggle](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset).
 
-- [Time Lapse Map](maps/time_lapse.html)
-- [Dataset Plot](maps/all_map.html)
+- [Time Lapse Map](https://maksimekin.github.io/COVID19-Literature-Clustering/maps/time_lapse.html)
+- [Dataset Plot](https://maksimekin.github.io/COVID19-Literature-Clustering/maps/all_map.html)
