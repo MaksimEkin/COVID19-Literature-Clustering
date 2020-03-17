@@ -15,8 +15,6 @@ t-SNE (2-grams, HashVectorizer)  |  t-SNE (2-grams, HashVectorizer, K-Means)
     <li>Clustering and Dimensionality Reduction task </li>
     <li>See how well labels from K-Means classify</li>
     <li>Use N-Grams with Hash Vectorizer</li>
-    <li>Use N-Grams with BWTD</li>
-    <li>Use plain text with BWTD</li>
     <li>Use plain text with Tfid</li>
     <li>Use K-Means for clustering</li>
     <li>Use t-SNE for dimensionality reduction</li>
