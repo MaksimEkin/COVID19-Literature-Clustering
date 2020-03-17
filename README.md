@@ -50,3 +50,12 @@ t-SNE (Plain Text, TFID, K-Means)  |  PCA (Plain Text, TFID, K-Means)
 #### [Call to Action to the Tech Community on New Machine Readable COVID-19 Dataset | White House, USA, March 16, 2020](https://www.whitehouse.gov/briefings-statements/call-action-tech-community-new-machine-readable-covid-19-dataset/)
 
 
+### Maps
+Maps generated using [Novel Corona Virus 2019 Dataset | Kaggle](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset).
+
+<ol>
+    <li>[Time Lapse Map](https://github.com/MaksimEkin/COVID19-Literature-Clustering/blob/master/maps/time_lapse.html)</li>
+    <li>[Dataset Plot](https://github.com/MaksimEkin/COVID19-Literature-Clustering/blob/master/maps/all_map.html)</li>
+</ol>
+
+
