@@ -8,9 +8,6 @@ Given a large amount of literature and rapidly spreading COVID-19, it is difficu
 t-SNE (2-grams, HashVectorizer)  |  t-SNE (2-grams, HashVectorizer, K-Means)
 :-------------------------:|:-------------------------:
 ![](plots/t-sne_covid19.png)  |  ![](plots/t-sne_covid19_label.png)
- It can be see that articles from the same cluster are near each other forming groups. There are still overlaps. So we will have to see if we can improve this by changing the cluster size, using another clustering algorithm, or different feature size. We can also consider not using 2-grams, or HashVectorizer. We can try 3-grams, 4-grams, or plain text as our instances and vectorize them using either HashVectorizer, TfidVectorizer, or Burrows Wheeler Transform Distance. 
-                           | It can be see that articles from the same cluster are near each other forming groups. There are still overlaps. So we will have to see if we can improve this by changing the cluster size, using another clustering algorithm, or different feature size. We can also consider not using 2-grams, or HashVectorizer. We can try 3-grams, 4-grams, or plain text as our instances and vectorize them using either HashVectorizer, TfidVectorizer, or Burrows Wheeler Transform Distance. 
-
 
 **Approach**:
 <ol>
