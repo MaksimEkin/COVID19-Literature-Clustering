@@ -16,7 +16,7 @@ t-SNE (2-grams, HashVectorizer)  |  t-SNE (2-grams, HashVectorizer, K-Means)
     <li>Clustering and Dimensionality Reduction task </li>
     <li>See how well labels from K-Means classify</li>
     <li>Use N-Grams with Hash Vectorizer</li>
-    <li>Use plain text with Tfid</li>
+    <li>Use plain text with Tfidf</li>
     <li>Use K-Means for clustering</li>
     <li>Use t-SNE for dimensionality reduction</li>
     <li>Use PCA for dimensionality reduction</li>
@@ -25,7 +25,7 @@ t-SNE (2-grams, HashVectorizer)  |  t-SNE (2-grams, HashVectorizer, K-Means)
 </ol>
 <br>
 
-t-SNE (Plain Text, TFID, K-Means)  |  PCA (Plain Text, TFID, K-Means)
+t-SNE (Plain Text, TFIDF, K-Means)  |  PCA (Plain Text, TFIDF, K-Means)
 :-------------------------:|:-------------------------:
 ![](plots/t-sne_covid19_label_TFID.png)  |  ![](plots/pca_covid19_label_TFID.png)
 
