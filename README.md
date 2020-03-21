@@ -7,6 +7,7 @@ Given a large amount of literature and rapidly spreading COVID-19, it is difficu
 **[See Analysis Here | Jupyter Notebook](https://github.com/MaksimEkin/COVID19-Literature-Clustering/blob/master/COVID19_literature_clustering.ipynb)**
 
 ### [Discover the COVID-19 Literature Clusters Here](https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html)
+![](cover/interactive_plot.png)
 
 t-SNE (2-grams, HashVectorizer)  |  t-SNE (2-grams, HashVectorizer, K-Means)
 :-------------------------:|:-------------------------:
