@@ -20,7 +20,8 @@ This project is done for <b>Kaggle</b>'s <a href="https://www.kaggle.com/allen-i
 description2 = Div(text="""<h3>Approach:</h3><p1>This scatter plot is generated using <b>plain text</b> from the body of 
 each article as a feature. Then each instance is turned into features vector using Sklearn's <b>TfidfVectorizer</b>. 
 Then, Dimensionality Reduction is applied to the feature vectors using Sklearn's <b>t-SNE</b>. Finally, labels are 
-generated with the means of clustering using Sklearn's <b>k-Means</b> where k=20. <b>26,043 samples</b> included.</p1>""", 
+generated with the means of clustering using Sklearn's <b>k-Means</b> where k=20. <b>Topic Modeling</b> is done on each cluster
+to get the keywords per cluster. <b>spaCy</b> is used to tokenize each instance first. Then, Sklearn's <b>CountVectorizer</b> is used to vectorize the features. Finally, Sklearn's <b>LatentDirichletAllocation</b> trained to get the keywords. Total of <b>26,043 samples</b> analysed.</p1>""", 
                    width=600)
 
 # kaggle citation
@@ -28,6 +29,9 @@ cite = Div(text="""<p1><h3>Citation:</h3><a href="https://www.kaggle.com/allen-i
            , width=600)
 # white house citation
 cite2 = Div(text="""<p1><a href="https://www.whitehouse.gov/briefings-statements/call-action-tech-community-new-machine-readable-covid-19-dataset/">Call to Action to the Tech Community on New Machine Readable COVID-19 Dataset | White House</a></p1>""", 
+            width=600)
+# inspiration
+cite3 = Div(text="""<p1>Inspired by Dr. Charles Nicholas's "Mr. Shakespeare, Meet Mr. Tucker", High Performance Computing and Data Analytics Workshop, September 10-11, 2019.  Linthicum Heights, MD, USA</p1>""", 
             width=600)
 
 description_search = Div(text="""<h3>Filter by Text:</h3><p1>Search keyword to filter out the plot. It will search abstracts, 
@@ -56,5 +60,5 @@ research community to apply recent advances in natural language processing and o
 new insights in support of the ongoing fight against this infectious disease. There is a growing urgency for these 
 approaches because of the rapid acceleration in new coronavirus literature, making it difficult for the medical 
 research community to keep up.'</i> - Kaggle</p1>""", 
-                  width=600)
+                  width=1600)
 

@@ -1,14 +1,15 @@
 from bokeh.models import CustomJS
 	
-def input_callback(plot, source): 
+def input_callback(plot, source, out_text, topics): 
 
     # slider call back for cluster selection
-    callback = CustomJS(args=dict(p=plot, source=source), code="""
+    callback = CustomJS(args=dict(p=plot, source=source, out_text=out_text, topics=topics), code="""
 
 				var key = text.value;
 				var cluster = slider.value;
                 var data = source.data; 
-
+                
+                
                 x = data['x'];
                 y = data['y'];
                 x_backup = data['x_backup'];
@@ -22,6 +23,7 @@ def input_callback(plot, source):
                 journal = data['journal'];
 
                 if (cluster == '20') {
+                    out_text.text = 'Keywords: Slide to specific cluster to see the keywords.';
                     for (i = 0; i < x.length; i++) {
 						if(abstract[i].includes(key) || 
 						titles[i].includes(key) || 
@@ -36,6 +38,7 @@ def input_callback(plot, source):
                     }
                 }
                 else {
+                    out_text.text = 'Keywords: ' + topics[Number(cluster)];
                     for (i = 0; i < x.length; i++) {
                         if(labels[i] == cluster) {
 							if(abstract[i].includes(key) || 
