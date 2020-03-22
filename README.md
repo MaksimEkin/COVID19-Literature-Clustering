@@ -1,13 +1,12 @@
 # COVID-19 Literature Clustering
 
-![](cover/corona.jpg)
+![](cover/interactive_plot.png)
 
 ### Goal
 Given a large amount of literature and rapidly spreading COVID-19, it is difficult for a scientist to keep up with the research community promptly. Can we cluster similar research articles together to make it easier for health professionals to find relevant research articles? Clustering can be used to create a tool to identify similar articles, given a target article. It can also reduce the number of articles one has to go through as one can focus on a cluster of articles.
 **[See Analysis Here | Jupyter Notebook](https://github.com/MaksimEkin/COVID19-Literature-Clustering/blob/master/COVID19_literature_clustering.ipynb)**
 
 ### [Discover the COVID-19 Literature Clusters Here](https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html)
-![](cover/interactive_plot.png)
 
 t-SNE (2-grams, HashVectorizer)  |  t-SNE (2-grams, HashVectorizer, K-Means)
 :-------------------------:|:-------------------------:
