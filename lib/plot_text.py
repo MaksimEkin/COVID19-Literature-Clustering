@@ -42,7 +42,7 @@ Please feel free to make any recommendations to improve the project. Please feel
                                 <a href="https://www.linkedin.com/in/maksimeren/">LinkedIn (MaksimEren)</a> for any questions.
                                 <br><br><b>Project Author: </b>Maksim Ekin Eren<br>
                                 <b>GitHub: </b><a href="https://github.com/MaksimEkin/COVID19-Literature-Clustering">https://github.com/MaksimEkin/COVID19-Literature-Clustering</a>
-                                <br><b>Many thanks to</b> Nick Solovyev, Charles Varga, Felix Dogbe, and Karsten Suhre <b>for their contributions.</b> </p1>
+                                <br><b>Many thanks to</b> Nick Solovyev, Charles Varga, Felix Dogbe, and Karsten Suhre <b>for their contributions and ideas.</b> </p1>
 <br>                               
 <h3>Latest Update:</h3><p1>UI improved. Keywords added using Topic Modeling on each cluster. </p1>
 <br>
