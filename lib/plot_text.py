@@ -18,7 +18,7 @@ This project is done for <b>Kaggle</b>'s <a href="https://www.kaggle.com/allen-i
 # steps description
 description2 = Div(text="""<h3>Approach:</h3><p1>This scatter plot is generated using <b>plain text</b> from the body of 
 each article as a feature. Then each instance is turned into features vector using Sklearn's <b>TfidfVectorizer</b>. 
-Then, Dimensionality Reduction is applied to the feature vectors using Sklearn's <b>t-SNE</b>. Finally, labels are 
+Then, <b>Dimensionality Reduction</b> is applied to the feature vectors using Sklearn's <b>t-SNE</b>. Finally, labels are 
 generated with the means of clustering using Sklearn's <b>k-Means</b> where k=20. <b>Topic Modeling</b> is done on each cluster
 to get the keywords per cluster. <b>spaCy</b> is used to tokenize each instance first. Then, Sklearn's <b>CountVectorizer</b> is used to vectorize the features. Finally, Sklearn's <b>LatentDirichletAllocation</b> trained to get the keywords. Total of <b>26,043 samples</b> analysed.</p1>""")
 
@@ -42,7 +42,11 @@ Please feel free to make any recommendations to improve the project. Please feel
                                 <a href="https://www.linkedin.com/in/maksimeren/">LinkedIn (MaksimEren)</a> for any questions.
                                 <br><br><b>Project Author: </b>Maksim Ekin Eren<br>
                                 <b>GitHub: </b><a href="https://github.com/MaksimEkin/COVID19-Literature-Clustering">https://github.com/MaksimEkin/COVID19-Literature-Clustering</a>
-                                <br><b>Many thanks to</b> Nick Solovyev, Charles Varga, and Felix Dogbe <b>for their contributions.<b/> </p1>""")
+                                <br><b>Many thanks to</b> Nick Solovyev, Charles Varga, Felix Dogbe, and Karsten Suhre <b>for their contributions.</b> </p1>
+<br>                               
+<h3>Latest Update:</h3><p1>UI improved. Keywords added using Topic Modeling on each cluster. </p1>
+<br>
+<h3>Future Work:</h3><p1>Research possible improvments on clustering using NLP parsed text, different vectorizers, larger feature sizes. Improve UI.</p1>""")
 
 dataset_description = Div(text="""<h3>Dataset Description:</h3><p1><i>'In response to the COVID-19 pandemic, 
 the White House and a coalition of leading research groups have prepared the COVID-19 Open Research Dataset 
@@ -52,4 +56,6 @@ research community to apply recent advances in natural language processing and o
 new insights in support of the ongoing fight against this infectious disease. There is a growing urgency for these 
 approaches because of the rapid acceleration in new coronavirus literature, making it difficult for the medical 
 research community to keep up.'</i> - Kaggle</p1>""")
+
+
 
