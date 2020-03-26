@@ -16,11 +16,11 @@ be used to achieve this.
 This project is done for <b>Kaggle</b>'s <a href="https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge">COVID-19 Open Research Dataset Challenge (CORD-19)</a>.</p1>""")
 
 # steps description
-description2 = Div(text="""<h3>Approach:</h3><p1>This scatter plot is generated using <b>plain text</b> from the body of 
+description2 = Div(text="""<h3>Approach:</h3><p1>This scatter plot is generated using <b>NLP parsed text</b> from the body of 
 each article as a feature. Then each instance is turned into features vector using Sklearn's <b>TfidfVectorizer</b>. 
 Then, <b>Dimensionality Reduction</b> is applied to the feature vectors using Sklearn's <b>t-SNE</b>. Finally, labels are 
 generated with the means of clustering using Sklearn's <b>k-Means</b> where k=20. <b>Topic Modeling</b> is done on each cluster
-to get the keywords per cluster. <b>spaCy</b> is used to tokenize each instance first. Then, Sklearn's <b>CountVectorizer</b> is used to vectorize the features. Finally, Sklearn's <b>LatentDirichletAllocation</b> trained to get the keywords. Total of <b>26,043 samples</b> analysed.</p1>""")
+to get the keywords per cluster. <b>spaCy</b> is used to tokenize each instance first. Then, Sklearn's <b>CountVectorizer</b> is used to vectorize the features. Finally, Sklearn's <b>LatentDirichletAllocation</b> trained to get the keywords. Total of <b>24,934 samples</b> analysed. Articles that are not English dropped.</p1>""")
 
 # citation
 cite = Div(text="""<p1><h3>Citation:</h3><a href="https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge">COVID-19 Open Research Dataset Challenge (CORD-19) | Kaggle</a></p1>
@@ -30,23 +30,20 @@ cite = Div(text="""<p1><h3>Citation:</h3><a href="https://www.kaggle.com/allen-i
 <p1>Inspired by Dr. Charles Nicholas's "Mr. Shakespeare, Meet Mr. Tucker", High Performance Computing and Data Analytics Workshop, September 10-11, 2019.  Linthicum Heights, MD, USA</p1>""")
 
 description_search = Div(text="""<h3>Filter by Text:</h3><p1>Search keyword to filter out the plot. It will search abstracts, 
-titles, journals, and authors. Please keep in mind that only 150 words of abstracts are kept in the plot. Press enter when ready. 
+titles, journals, and authors. Please keep in mind that only 150 words of abstracts, and first 2 authors are kept in the plot to reduce the size. Press enter when ready. 
 Clear and press enter to reset the plot.</p1>""")
 
 description_slider = Div(text="""<h3>Filter by the Clusters:</h3><p1>The slider below can be used to filter the target cluster. 
 Simply slide the slider to the desired cluster number to display the plots that belong to that cluster. 
 Slide back to 20 to show all.</p1>""")
 
-notes = Div(text="""<h3>Notes:</h3><p1>I hope you enjoyed this plot, and I hope it will be helpful for someone. 
-Please feel free to make any recommendations to improve the project. Please feel free to reach out to me on 
-                                <a href="https://www.linkedin.com/in/maksimeren/">LinkedIn (MaksimEren)</a> for any questions.
-                                <br><br><b>Project Author: </b>Maksim Ekin Eren<br>
+notes = Div(text="""<h3>Contact:</h3><p1>Malware Research Group, University of Maryland Baltimore County (UMBC). <br>
+                                <b>Project Author: </b>Maksim Ekin Eren (meren1@umbc.edu), Nick Solovyev (sonic1@umbc.edu)<br>
+                                <b>PI: </b>Dr. Charles Nicholas<br>
                                 <b>GitHub: </b><a href="https://github.com/MaksimEkin/COVID19-Literature-Clustering">https://github.com/MaksimEkin/COVID19-Literature-Clustering</a>
-                                <br><b>Many thanks to</b> Nick Solovyev, Charles Varga, Felix Dogbe, and Karsten Suhre <b>for their contributions and ideas.</b> </p1>
+                                <br><br><b>Many thanks to</b> Charles Varga, Felix Dogbe, and Karsten Suhre <b>for their contributions and ideas.</b> </p1>
 <br>                               
-<h3>Latest Update:</h3><p1>UI improved. Keywords added using Topic Modeling on each cluster. </p1>
-<br>
-<h3>Future Work:</h3><p1>Research possible improvments on clustering using NLP parsed text, different vectorizers, larger feature sizes. Improve UI.</p1>""")
+<h3>Latest Update:</h3><p1>Clustering improved.</p1>""")
 
 dataset_description = Div(text="""<h3>Dataset Description:</h3><p1><i>'In response to the COVID-19 pandemic, 
 the White House and a coalition of leading research groups have prepared the COVID-19 Open Research Dataset 
