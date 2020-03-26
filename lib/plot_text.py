@@ -27,7 +27,9 @@ cite = Div(text="""<p1><h3>Citation:</h3><a href="https://www.kaggle.com/allen-i
 <br><br>
 <p1><a href="https://www.whitehouse.gov/briefings-statements/call-action-tech-community-new-machine-readable-covid-19-dataset/">Call to Action to the Tech Community on New Machine Readable COVID-19 Dataset | White House</a></p1>
 <br><br>
-<p1>Inspired by Dr. Charles Nicholas's "Mr. Shakespeare, Meet Mr. Tucker", High Performance Computing and Data Analytics Workshop, September 10-11, 2019.  Linthicum Heights, MD, USA</p1>""")
+<p1>Inspired by Dr. Charles Nicholas's "Mr. Shakespeare, Meet Mr. Tucker", High Performance Computing and Data Analytics Workshop, September 10-11, 2019.  Linthicum Heights, MD, USA</p1>
+<br><br>
+<p1>Raff, Edward and Nicholas, Charles and McLean, Mark. The Thirty-Fourth AAAI Conference on Artificial Intelligence. A New Burrows Wheeler Transform Markov Distance. 2020.</p1>""")
 
 description_search = Div(text="""<h3>Filter by Text:</h3><p1>Search keyword to filter out the plot. It will search abstracts, 
 titles, journals, and authors. Please keep in mind that only 150 words of abstracts, and first 2 authors are kept in the plot to reduce the size. Press enter when ready. 

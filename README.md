@@ -53,3 +53,12 @@ Code for loading the dataset into DF(cite): [Dataset Parsing Code | Kaggle, COVI
 [Call to Action to the Tech Community on New Machine Readable COVID-19 Dataset | White House, USA, March 16, 2020](https://www.whitehouse.gov/briefings-statements/call-action-tech-community-new-machine-readable-covid-19-dataset/)
  Kaggle Submission: [COVID-19 Literature Clustering | Kaggle](https://www.kaggle.com/maksimeren/covid-19-literature-clustering#Unsupervised-Learning:-Clustering-with-K-Means)
 
+'''
+@inproceedings{Raff2020,
+author = {Raff, Edward and Nicholas, Charles and McLean, Mark},
+booktitle = {The Thirty-Fourth AAAI Conference on Artificial Intelligence},
+title = {{A New Burrows Wheeler Transform Markov Distance}},
+url = {http://arxiv.org/abs/1912.13046},
+year = {2020}
+}
+'''
