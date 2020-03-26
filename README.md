@@ -8,8 +8,8 @@ Given a large amount of literature and rapidly spreading COVID-19, it is difficu
 ### [View the Interactive COVID-19 Literature Clustering Plot](https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html)
 https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html
 
-
-![t-SNE Output Clustered For Visualization](plots/improved_cluster_tsne.png “t-SNE Output Clustered For Visualization”)
+![](plots/improved_cluster_tsne.png)
+*t-SNE Output Clustered For Visualization*
 
 
 **Approach**:
@@ -27,8 +27,8 @@ https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_
 </ol>
 <br>
 
-
-![X Clustered - More Accurate](plots/improved_cluster_X.png “X Clustered - More Accurate”)
+![](plots/improved_cluster_X.png)
+*X Clustered - More Accurate*
 
 
 ### Dataset Description
