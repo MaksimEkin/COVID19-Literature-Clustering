@@ -61,7 +61,6 @@ Kaggle Submission: [COVID-19 Literature Clustering | Kaggle](https://www.kaggle.
 	title = {{A New Burrows Wheeler Transform Markov Distance}},
 	url = {http://arxiv.org/abs/1912.13046},
 	year = {2020},
-	howpublished = {\url{https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge}}
 }
 ```
 ```
