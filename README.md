@@ -37,22 +37,70 @@ Maps generated using [Novel Corona Virus 2019 Dataset | Kaggle](https://www.kagg
 - [Time Lapse Map](https://maksimekin.github.io/COVID19-Literature-Clustering/maps/time_lapse.html)
 - [Dataset Plot](https://maksimekin.github.io/COVID19-Literature-Clustering/maps/all_map.html)
 
+## How to Cite This Work?
+```
+    @inproceedings{COVID-19 Literature Clustering,
+     author = {Eren, E. Maksim. Solovyev, Nick. Nicholas, Charles. Raff, Edward},
+     title = {COVID-19 Literature Clustering},
+     year = {2020},
+     month = {March-April},
+     location = {University of Maryland Baltimore County (UMBC), Baltimore, MD, USA},
+     note={Malware Research Group},
+     howpublished = {\url{https://github.com/MaksimEkin/COVID19-Literature-Clustering}}
+    }
+```
+
 ## Citation/Sources
 
-
-Dataset/Task: COVID-19 Open Research Dataset Challenge (CORD-19), An AI challenge with AI2, CZI, MSR, Georgetown, NIH & The White House [COVID-19 Open Research Dataset Challenge (CORD-19) | Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)
-
-Code for loading the dataset into DF(cite): [Dataset Parsing Code | Kaggle, COVID EDA: Initial Exploration Tool](https://www.kaggle.com/ivanegapratama/covid-eda-initial-exploration-tool)
-
- Clustering section of the project: *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow*, 2nd Edition, by Aurelien Geron (O'Reilly). Copyright 2019 Kiwisoft S.A.S, 978-1-492-03264-9<br>
-
-[Call to Action to the Tech Community on New Machine Readable COVID-19 Dataset | White House, USA, March 16, 2020](https://www.whitehouse.gov/briefings-statements/call-action-tech-community-new-machine-readable-covid-19-dataset/)
- Kaggle Submission: [COVID-19 Literature Clustering | Kaggle](https://www.kaggle.com/maksimeren/covid-19-literature-clustering#Unsupervised-Learning:-Clustering-with-K-Means)
-
+Kaggle Submission: [COVID-19 Literature Clustering | Kaggle](https://www.kaggle.com/maksimeren/covid-19-literature-clustering#Unsupervised-Learning:-Clustering-with-K-Means)
+ 
+ ```
     @inproceedings{Raff2020,
     author = {Raff, Edward and Nicholas, Charles and McLean, Mark},
     booktitle = {The Thirty-Fourth AAAI Conference on Artificial Intelligence},
     title = {{A New Burrows Wheeler Transform Markov Distance}},
     url = {http://arxiv.org/abs/1912.13046},
-    year = {2020}
+    year = {2020},
+    howpublished = {\url{https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge}}
     }
+```
+```
+    @misc{Kaggle,
+	author = {Kaggle},
+	title = {COVID-19 Open Research Dataset Challenge (CORD-19)},
+	year = {2020},
+	month = {March},
+	note = {Allen Institute for AI in partnership with the Chan Zuckerberg Initiative, Georgetown University’s Center for   Security and Emerging Technology, Microsoft Research, and the National Library of Medicine - National Institutes of Health, in coordination with The White House Office of Science and Technology Policy.},
+	howpublished = {\url{https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge}}
+    }
+```
+```
+    @inproceedings{Shakespeare,
+
+     author = {Nicholas, Charles},
+     title = {Mr. Shakespeare, Meet Mr. Tucker},
+     booktitle = {High Performance Computing and Data Analytics Workshop},
+     year = {2019},
+     month = {September},
+     location = { Linthicum Heights, MD, USA},
+    }
+```
+```
+    @inproceedings{raff_lzjd_2017,
+     author = {Raff, Edward and Nicholas, Charles},
+     title = {An Alternative to NCD for Large Sequences, Lempel-Ziv Jaccard Distance},
+     booktitle = {Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+     series = {KDD '17},
+     year = {2017},
+     isbn = {978-1-4503-4887-4},
+     location = {Halifax, NS, Canada},
+     pages = {1007--1015},
+     numpages = {9},
+     url = {http://doi.acm.org/10.1145/3097983.3098111},
+     doi = {10.1145/3097983.3098111},
+     acmid = {3098111},
+     publisher = {ACM},
+     address = {New York, NY, USA},
+     keywords = {cyber security, jaccard similarity, lempel-ziv, malware classification, normalized compression distance},
+    }
+```
