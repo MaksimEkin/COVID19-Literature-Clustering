@@ -16,11 +16,17 @@ be used to achieve this.
 This project is done for <b>Kaggle</b>'s <a href="https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge">COVID-19 Open Research Dataset Challenge (CORD-19)</a>.</p1>""")
 
 # steps description
-description2 = Div(text="""<h3>Approach:</h3><p1>This scatter plot is generated using <b>NLP parsed text</b> from the body of 
-each article as a feature. Then each instance is turned into features vector using Sklearn's <b>TfidfVectorizer</b>. 
-Then, <b>Dimensionality Reduction</b> is applied to the feature vectors using Sklearn's <b>t-SNE</b>. Finally, labels are 
-generated with the means of clustering using Sklearn's <b>k-Means</b> where k=20. <b>Topic Modeling</b> is done on each cluster
-to get the keywords per cluster. <b>spaCy</b> is used to tokenize each instance first. Then, Sklearn's <b>CountVectorizer</b> is used to vectorize the features. Finally, Sklearn's <b>LatentDirichletAllocation</b> trained to get the keywords. Total of <b>24,934 samples</b> analysed. Articles that are not English dropped.</p1>""")
+description2 = Div(text="""<h3>Approach:</h3>
+<ul>
+  <li>Parse the text from the body of each document using Natural Language Processing (NLP). </li>
+  <li>Turn each document instance di into a feature vector Xi using Term Frequency–inverse Document Frequency (TF-IDF).</li>
+  <li>Apply Dimensionality Reduction to each feature vector Xi using t-Distributed Stochastic Neighbor Embedding (t-SNE) to cluster similar research articles in the two dimensional plane X embedding Y1.</li>
+  <li>Use Principal Component Analysis (PCA) to project down the dimensions of X to a number of dimensions that will keep .95 variance while removing noise and outliers in embedding Y2.</li>
+  <li>Apply k-means clustering on Y2, where k is 20, to label each cluster on Y1.</li>
+  <li>Apply Topic Modeling on X using Latent Dirichlet Allocation (LDA) to discover keywords from each cluster.</li>
+  <li>Investigate the clusters visually on the plot, zooming down to specific articles as needed, and via classification using Stochastic Gradient Descent (SGD).</li>  
+</ul> 
+<p>Total of <b>29,240 samples</b> analysed. Articles that are not English dropped.</p1>""")
 
 # citation
 cite = Div(text="""<p1><h3>Citation:</h3><a href="https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge">COVID-19 Open Research Dataset Challenge (CORD-19) | Kaggle</a></p1>
@@ -39,22 +45,21 @@ description_slider = Div(text="""<h3>Filter by the Clusters:</h3><p1>The slider 
 Simply slide the slider to the desired cluster number to display the plots that belong to that cluster. 
 Slide back to 20 to show all.</p1>""")
 
+description_keyword = Div(text="""<h3>Keywords:</h3>""")
+
+description_current = Div(text="""<h3>Selected:</h3>""")
+
 notes = Div(text="""<h3>Contact:</h3><p1>Malware Research Group, University of Maryland Baltimore County (UMBC). <br>
                                 <b>Project Author: </b>Maksim Ekin Eren (meren1@umbc.edu), Nick Solovyev (sonic1@umbc.edu)<br>
                                 <b>PI: </b>Dr. Charles Nicholas<br>
                                 <b>GitHub: </b><a href="https://github.com/MaksimEkin/COVID19-Literature-Clustering">https://github.com/MaksimEkin/COVID19-Literature-Clustering</a>
-                                <br><br><b>Many thanks to</b> Charles Varga, Felix Dogbe, and Karsten Suhre <b>for their contributions and ideas.</b> </p1>
+                                <br><br><b>Many thanks to</b> Charles Varga, Felix Dogbe, Karsten Suhre, and Mark Mohades
+<b>for their contributions and ideas.</b> </p1>
 <br>                               
-<h3>Latest Update:</h3><p1>Clustering improved.</p1>""")
+<h3>Latest Update:</h3><p1>Now using <a href="https://github.com/allenai/scispacy/blob/master/README.md">en_core_sci_lg</a> for tokenization. Using the new dataset with more articles. Click on a plot to the show link to the article.</p1>
+<h4><a href="https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive_old.html">Old version of the plot</a></h4>""")
 
-dataset_description = Div(text="""<h3>Dataset Description:</h3><p1><i>'In response to the COVID-19 pandemic, 
-the White House and a coalition of leading research groups have prepared the COVID-19 Open Research Dataset 
-(CORD-19). CORD-19 is a resource of over 44,000 scholarly articles, including over 29,000 with full text, 
-about COVID-19, SARS-CoV-2, and related coronaviruses. This freely available dataset is provided to the global 
-research community to apply recent advances in natural language processing and other AI techniques to generate 
-new insights in support of the ongoing fight against this infectious disease. There is a growing urgency for these 
-approaches because of the rapid acceleration in new coronavirus literature, making it difficult for the medical 
-research community to keep up.'</i> - Kaggle</p1>""")
+dataset_description = Div(text="""<h3>Dataset Description:</h3><p1><i>'In response to the COVID-19 pandemic, the White House and a coalition of leading research groups have prepared the COVID-19 Open Research Dataset (CORD-19). CORD-19 is a resource of over 47,000 scholarly articles, including over 36,000 with full text, about COVID-19, SARS-CoV-2, and related coronaviruses. This freely available dataset is provided to the global research community to apply recent advances in natural language processing and other AI techniques to generate new insights in support of the ongoing fight against this infectious disease. There is a growing urgency for these approaches because of the rapid acceleration in new coronavirus literature, making it difficult for the medical research community to keep up.'</i> - Kaggle</p1>""")
 
 
 
