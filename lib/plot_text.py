@@ -56,7 +56,7 @@ notes = Div(text="""<h3>Contact:</h3><p1>Malware Research Group, University of M
                                 <br><br><b>Many thanks to</b> Charles Varga, Felix Dogbe, Karsten Suhre, and Mark Mohades
 <b>for their contributions and ideas.</b> </p1>
 <br>                               
-<h3>Latest Update:</h3><p1>Now using <a href="https://github.com/allenai/scispacy/blob/master/README.md">en_core_sci_lg</a> for tokenization. Using the new dataset with more articles. Click on a plot to the show link to the article.</p1>
+<h3>Latest Update:</h3><p1>Now using <a href="https://github.com/allenai/scispacy/blob/master/README.md">en_core_sci_lg</a> for tokenization. Using the new dataset with more articles. Click on a plot to show the link to the article.</p1>
 <h4><a href="https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive_old.html">Old version of the plot</a></h4>""")
 
 dataset_description = Div(text="""<h3>Dataset Description:</h3><p1><i>'In response to the COVID-19 pandemic, the White House and a coalition of leading research groups have prepared the COVID-19 Open Research Dataset (CORD-19). CORD-19 is a resource of over 47,000 scholarly articles, including over 36,000 with full text, about COVID-19, SARS-CoV-2, and related coronaviruses. This freely available dataset is provided to the global research community to apply recent advances in natural language processing and other AI techniques to generate new insights in support of the ongoing fight against this infectious disease. There is a growing urgency for these approaches because of the rapid acceleration in new coronavirus literature, making it difficult for the medical research community to keep up.'</i> - Kaggle</p1>""")
