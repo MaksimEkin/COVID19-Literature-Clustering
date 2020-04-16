@@ -38,12 +38,12 @@ https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_
 # Approach:
 
 - Parse the text from the body of each document using Natural Language Processing (NLP).
-- Turn each document instance $d_i$ into a feature vector $X_i$ using Term Frequency–inverse Document Frequency (TF-IDF).
-- Apply Dimensionality Reduction to each feature vector $X_i$ using t-Distributed Stochastic Neighbor Embedding (t-SNE) to cluster similar research articles in the two dimensional plane $X$ embedding $Y_1$.
-- Use Principal Component Analysis (PCA) to project down the dimensions of $X$ to a number of dimensions that will keep .95 variance while removing noise and outliers in embedding $Y_2$.
-- Apply k-means clustering on $Y_2$, where $k$ is 20, to label each cluster on $Y_1$.
-- Apply Topic Modeling on $X$ using Latent Dirichlet Allocation (LDA) to discover keywords from each cluster. 
-- Investigate the clusters visually on the plot, zooming down to specific articles as needed, and via classification using Stochastic Gradient Descent (SGD). 
+- Turn each document instance di into a feature vector Xi using Term Frequency–inverse Document Frequency (TF-IDF).
+- Apply Dimensionality Reduction to each feature vector Xi using t-Distributed Stochastic Neighbor Embedding (t-SNE) to cluster similar research articles in the two dimensional plane X embedding Y1.
+- Use Principal Component Analysis (PCA) to project down the dimensions of X to a number of dimensions that will keep .95 variance while removing noise and outliers in embedding Y2.
+- Apply k-means clustering on Y2, where k is 20, to label each cluster on Y1.
+- Apply Topic Modeling on X using Latent Dirichlet Allocation (LDA) to discover keywords from each cluster.
+- Investigate the clusters visually on the plot, zooming down to specific articles as needed, and via classification using Stochastic Gradient Descent (SGD).
 
 <br>
 <br>
@@ -165,8 +165,3 @@ Kaggle Submission: [COVID-19 Literature Clustering | Kaggle](https://www.kaggle.
 
 <br>
 <br>
-
-**Thank you for looking at our notebook. We greatly appreciate tips, suggestions, and upvotes :)** <br>
-**If you would like to check out the interactive plot with the full dataset, please visit:**
-
-https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html
