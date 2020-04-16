@@ -26,7 +26,7 @@ description2 = Div(text="""<h3>Approach:</h3>
   <li>Apply Topic Modeling on X using Latent Dirichlet Allocation (LDA) to discover keywords from each cluster.</li>
   <li>Investigate the clusters visually on the plot, zooming down to specific articles as needed, and via classification using Stochastic Gradient Descent (SGD).</li>  
 </ul> 
-<p>Total of <b>29,240 samples</b> analysed. Articles that are not English dropped.</p1>""")
+<p>Total of <b>32,651 samples</b> analysed. Articles that are not English dropped.</p1>""")
 
 # citation
 cite = Div(text="""<p1><h3>Citation:</h3><a href="https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge">COVID-19 Open Research Dataset Challenge (CORD-19) | Kaggle</a></p1>
