@@ -31,8 +31,8 @@ https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_
 }
 ```
 
-![](plots/improved_cluster_tsne.png)
 <p style="text-align:center">t-SNE Output Clustered For Visualization</p>
+![](plots/improved_cluster_tsne.png)
 
 
 # Approach:
