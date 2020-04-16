@@ -46,7 +46,6 @@ https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_
 - Investigate the clusters visually on the plot, zooming down to specific articles as needed, and via classification using Stochastic Gradient Descent (SGD).
 
 <br>
-<br>
 
 ### Dataset Description
 
@@ -90,6 +89,8 @@ Our manual inspection of the documents was quite limited, as neither of the auth
 - The algorithms used in this notebook are stochastic so the results may vary depending on the random state. In this notebook all of the algorithms are set to random state 42 (the meaning of life) to ensure reproducible results
 - Long run time to train models on large dataset of literature
 
+<br>
+<br>
 
 # Citation/Sources
 
@@ -156,7 +157,6 @@ Kaggle Submission: [COVID-19 Literature Clustering | Kaggle](https://www.kaggle.
 }
 ```
 
-<br>
 <br>
 
 ## Maps
