@@ -13,7 +13,7 @@ This is a difficult time in which health care workers, sanitation staff, and man
 
 
 - ### [View the Interactive COVID-19 Literature Clustering Plot Here](https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html) 
-- ### [View the CORD-19 Dataset Analysis Here](https://maksimekin.github.io/COVID19-Literature-Clustering/COVID19_literature_clustering.html)
+- ### [View the CORD-19 Dataset Analysis Notebook Here](https://maksimekin.github.io/COVID19-Literature-Clustering/COVID19_literature_clustering.html)
 
 <br>
 <br>
