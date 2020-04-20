@@ -7,12 +7,7 @@ header = Div(text="""<h1>COVID-19 LITERATURE CLUSTERING</h1>""")
 toolbox_header = Div(text="""<h1>Toolbox:</h1>""")
 
 # project description
-description = Div(text="""<p1>Given a large amount of literature regarding the rapidly spreading <b>COVID-19</b>, 
-it is difficult for a scientist to keep up with the research community promptly. <u>Can we cluster similar research articles 
-together to make it easier for health professionals to find relevant research articles?</u> Clustering can be used to create 
-a tool to identify similar articles, given a target article. It can also reduce the number of articles one has to go through as 
-one can focus on a cluster of articles rather than many different kinds. On this plot, we demonstrate how clustering can 
-be used to achieve this. 
+description = Div(text="""<p1>Given the large number of literature and the rapid spread of COVID-19, it is difficult for health professionals to keep up with new information on the virus. Can clustering similar research articles together simplify the search for related publications? How can the content of the clusters be qualified? By using clustering for labelling in combination with dimensionality reduction for visualization, the collection of literature can be represented by a scatter plot. On this plot, publications of highly similar topic will share a label and will be plotted near each other. In order, to find meaning in the clusters, topic modelling will be performed to find the keywords of each cluster.
 This project is done for <b>Kaggle</b>'s <a href="https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge">COVID-19 Open Research Dataset Challenge (CORD-19)</a>.</p1>""")
 
 # steps description
@@ -38,7 +33,7 @@ cite = Div(text="""<p1><h3>Citation:</h3><a href="https://www.kaggle.com/allen-i
 <p1>Raff, Edward and Nicholas, Charles and McLean, Mark. The Thirty-Fourth AAAI Conference on Artificial Intelligence. A New Burrows Wheeler Transform Markov Distance. 2020.</p1>""")
 
 description_search = Div(text="""<h3>Filter by Text:</h3><p1>Search keyword to filter out the plot. It will search abstracts, 
-titles, journals, and authors. Please keep in mind that only 150 words of abstracts, and first 2 authors are kept in the plot to reduce the size. Press enter when ready. 
+titles, journals, and authors. Please keep in mind that only 150 words of abstracts to reduce the size. Press enter when ready. 
 Clear and press enter to reset the plot.</p1>""")
 
 description_slider = Div(text="""<h3>Filter by the Clusters:</h3><p1>The slider below can be used to filter the target cluster. 
@@ -56,10 +51,8 @@ notes = Div(text="""<h3>Contact:</h3><p1>Malware Research Group, University of M
                                 <br><br><b>Many thanks to</b> Charles Varga, Felix Dogbe, Karsten Suhre, and Mark Mohades
 <b>for their contributions and ideas.</b> </p1>
 <br>                               
-<h3>Latest Update:</h3><p1>Now using <a href="https://github.com/allenai/scispacy/blob/master/README.md">en_core_sci_lg</a> for tokenization. Using the new dataset with more articles. Click on a plot to show the link to the article.</p1>
+<h3>Latest Update:</h3><p1> - search by author is no longer limited </p1>
+<h4><a href="https://maksimekin.github.io/COVID19-Literature-Clustering/COVID19_literature_clustering.html">Link to notebook</a> <br> </h4 >
 <h4><a href="https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive_old.html">Old version of the plot</a></h4>""")
 
-dataset_description = Div(text="""<h3>Dataset Description:</h3><p1><i>'In response to the COVID-19 pandemic, the White House and a coalition of leading research groups have prepared the COVID-19 Open Research Dataset (CORD-19). CORD-19 is a resource of over 47,000 scholarly articles, including over 36,000 with full text, about COVID-19, SARS-CoV-2, and related coronaviruses. This freely available dataset is provided to the global research community to apply recent advances in natural language processing and other AI techniques to generate new insights in support of the ongoing fight against this infectious disease. There is a growing urgency for these approaches because of the rapid acceleration in new coronavirus literature, making it difficult for the medical research community to keep up.'</i> - Kaggle</p1>""")
-
-
-
+dataset_description = Div(text="""<h3>Dataset Description:</h3><p1><i>'In response to the COVID-19 pandemic, the White House and a coalition of leading research groups have prepared the COVID-19 Open Research Dataset (CORD-19). CORD-19 is a resource of over 51,000 scholarly articles, including over 40,000 with full text, about COVID-19, SARS-CoV-2, and related coronaviruses. This freely available dataset is provided to the global research community to apply recent advances in natural language processing and other AI techniques to generate new insights in support of the ongoing fight against this infectious disease. There is a growing urgency for these approaches because of the rapid acceleration in new coronavirus literature, making it difficult for the medical research community to keep up.'</i> - Kaggle</p1>""")
