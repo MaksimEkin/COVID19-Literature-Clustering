@@ -1,7 +1,6 @@
 Please note that df_covid.p is not included here because of its size. Please refer to Kaggle for the full dataset, or re-run the [Notebook](https://github.com/MaksimEkin/COVID19-Literature-Clustering/blob/master/COVID19_literature_clustering.ipynb) to get the df_covid DataFrame.
 
-
-Please note that df_covid.p is not included here because of its size. Please refer to Kaggle for the full dataset.
+<br>
 
 You can also download the Pickled output of the analysis on [Kaggle](https://www.kaggle.com/maksimeren/covid-19-literature-clustering/comments) from the outputs section; however, it will only include around **10k instances** (articles).
 
