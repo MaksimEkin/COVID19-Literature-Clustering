@@ -15,7 +15,7 @@ This is a difficult time in which health care workers, sanitation staff, and man
 - ### [View the Interactive COVID-19 Literature Clustering Plot Here](https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html) 
 - ### [View the CORD-19 Dataset Analysis Notebook Here](https://maksimekin.github.io/COVID19-Literature-Clustering/COVID19_literature_clustering.html)
 
-[![Chase Pipkin from Freethink put together this great video featuring our work on COVID-19 Literature Clustering](https://img.youtube.com/vi/vyOrM8zC_I/0.jpg)](https://www.youtube.com/watch?v=vyOrM8zC_I)
+[![Chase Pipkin from Freethink put together this great video featuring our work on COVID-19 Literature Clustering](https://img.youtube.com/vi/vyOrM8zC_Iw/0.jpg)](https://www.youtube.com/watch?v=vyOrM8zC_Iw)
 
 <br>
 <br>
