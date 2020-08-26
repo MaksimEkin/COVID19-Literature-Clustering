@@ -24,15 +24,15 @@ This is a difficult time in which health care workers, sanitation staff, and man
 
 ## How to Cite This Work?
 ```
-@inproceedings{COVID-19 Literature Clustering,
-	author = {Eren, E. Maksim. Solovyev, Nick. Nicholas, Charles. Raff, Edward},
-	title = {COVID-19 Literature Clustering},
+@inproceedings{EREN2020,
+	author = {Eren, E. Maksim. Solovyev, Nick. Nicholas, Charles. Raff, Edward. Johnson, Ben},
+	title = {COVID-19 Kaggle Literature Organization},
 	year = {2020},
-	month = {April},
-	location = {University of Maryland Baltimore County (UMBC), Baltimore, MD, USA},
-	note={Malware Research Group},
-	url = {\url{https://github.com/MaksimEkin/COVID19-Literature-Clustering}},
-    howpublished = {TBA}
+	month = {September},
+	location = {Virtual Event, CA, USA},
+	note={Malware Research Group, University of Maryland Baltimore County. \url{https://github.com/MaksimEkin/COVID19-Literature-Clustering}},
+    	doi = {10.1145/3395027.3419591},
+    	howpublished = {ACM Symposium on Document Engineering 2020 (DocEng '20)}
 }
 ```
 
