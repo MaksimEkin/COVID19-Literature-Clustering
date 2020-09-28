@@ -2,6 +2,10 @@
 
 ![](cover/bokeh_plot.png)
 
+- ### [View the Interactive COVID-19 Literature Clustering Plot Here](https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html) 
+- ### [View the CORD-19 Dataset Analysis Notebook Here](https://maksimekin.github.io/COVID19-Literature-Clustering/COVID19_literature_clustering.html)
+- ### [View the Paper Publication Here](https://dl.acm.org/doi/10.1145/3395027.3419591)
+
 # Goal
 Given the large number of literature and the rapid spread of COVID-19, it is difficult for health professionals to keep up with new information on the virus. Can clustering similar research articles together simplify the search for related publications? How can the content of the clusters be qualified?
 
@@ -11,9 +15,6 @@ By using Bokeh, the plot will be interactive. User’s will have the option of s
 
 This is a difficult time in which health care workers, sanitation staff, and many other essential personnel are out there keeping the world afloat. While adhering to quarantine protocol, the Kaggle CORD-19 competition has given us an opportunity to help in the best way we can as computer science students. It should be noted, however, that we are not epidemiologists, and it is not our place to gauge the importance of these papers. This tool was created to help make it easier for trained professionals to sift through many, many publications related to the virus, and find their own determinations.
 
-
-- ### [View the Interactive COVID-19 Literature Clustering Plot Here](https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html) 
-- ### [View the CORD-19 Dataset Analysis Notebook Here](https://maksimekin.github.io/COVID19-Literature-Clustering/COVID19_literature_clustering.html)
 
 ##### Chase Pipkin from Freethink put together this great video featuring our work on COVID-19 Literature Clustering
 <a href="https://www.youtube.com/watch?v=vyOrM8zC_Iw" rel="Chase Pipkin from Freethink put together this great video featuring our work on COVID-19 Literature Clustering" align="center">![Freethink](https://img.youtube.com/vi/vyOrM8zC_Iw/0.jpg)</a>
