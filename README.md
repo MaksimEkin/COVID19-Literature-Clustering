@@ -2,10 +2,15 @@
 
 ![](cover/bokeh_plot.png)
 
+<br>
 
-### [:bar_chart: Interactive Plot](https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html) &emsp; [:orange_book: Analysis Notebook](https://data-structures-game.herokuapp.com/game_board/api) &emsp; [:blue_book: Kaggle Submission](https://www.kaggle.com/maksimeren/covid-19-literature-clustering) 
+<div align="center", style="font-size: 50px">
 
-### [:page_facing_up: Paper Publication](https://www.maksimeren.com/publication/eren_doceng2020/) &emsp; [:information_source: Video (Chase Pipkin from Freethink)](https://www.youtube.com/watch?v=vyOrM8zC_Iw)
+### [:bar_chart: Interactive Plot](https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html) &emsp; [:orange_book: Analysis Notebook](https://maksimekin.github.io/COVID19-Literature-Clustering/COVID19_literature_clustering.html) &emsp; [:blue_book: Kaggle Submission](https://www.kaggle.com/maksimeren/covid-19-literature-clustering) 
+
+### [:page_facing_up: Paper Publication](https://www.maksimeren.com/publication/eren_doceng2020/) &emsp; [:tv: Video (Chase Pipkin from Freethink)](https://www.youtube.com/watch?v=vyOrM8zC_Iw)
+
+</div>
 
 <br>
 <br>
