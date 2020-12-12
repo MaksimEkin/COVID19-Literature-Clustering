@@ -8,7 +8,9 @@
 
 ### [:bar_chart: Interactive Plot](https://maksimekin.github.io/COVID19-Literature-Clustering/plots/t-sne_covid-19_interactive.html) &emsp; [:orange_book: Analysis Notebook](https://maksimekin.github.io/COVID19-Literature-Clustering/COVID19_literature_clustering.html) &emsp; [:blue_book: Kaggle Submission](https://www.kaggle.com/maksimeren/covid-19-literature-clustering) 
 
-### [:page_facing_up: Paper Publication](https://www.maksimeren.com/publication/eren_doceng2020/) &emsp; [:tv: Video (Chase Pipkin from Freethink)](https://www.youtube.com/watch?v=vyOrM8zC_Iw)
+### [:page_facing_up: Paper Publication](https://www.maksimeren.com/publication/eren_doceng2020/) &emsp; [:clapper: Video (Chase Pipkin from Freethink)](https://www.youtube.com/watch?v=vyOrM8zC_Iw) 
+
+#### [:information_source: arXiv Literature Clustering](https://github.com/MaksimEkin/arXiv-Literature-Clustering)
 
 </div>
 
@@ -105,8 +107,6 @@ Our manual inspection of the documents was quite limited, as neither of the auth
 
 # Citation/Sources
 
-Kaggle Submission: [COVID-19 Literature Clustering | Kaggle](https://www.kaggle.com/maksimeren/covid-19-literature-clustering#Unsupervised-Learning:-Clustering-with-K-Means)
- 
  ```
 @inproceedings{Raff2020,
 	author = {Raff, Edward and Nicholas, Charles and McLean, Mark},
